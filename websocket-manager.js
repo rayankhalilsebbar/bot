@@ -633,7 +633,7 @@ class WebSocketManager extends EventEmitter {
             side: side,
             size: size.toString(),
             price: price.toString(),
-            force: 'gtc',
+            force: 'post_only',
             clientOid: clientOid
           }
         }
@@ -753,7 +753,7 @@ class WebSocketManager extends EventEmitter {
               side: side,
               size: size.toString(),
               price: price.toString(),
-              force: 'gtc',
+              force: 'post_only',
               clientOid: clientOid
             }
           }
